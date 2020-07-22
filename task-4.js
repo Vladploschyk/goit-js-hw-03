@@ -9,6 +9,7 @@ function countTotalSalary(employees) {
   for (const salary of salaries) {
     totalCount += salary;
   }
+
   return totalCount;
 }
 
