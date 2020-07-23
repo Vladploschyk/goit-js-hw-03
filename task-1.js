@@ -11,29 +11,13 @@ const user = {
   hobby: 'html',
   premium: true,
 };
+
 user.mood = 'happy';
-user.hobby = 'javascript';
-user.premium = 'false';
+user.hobby = 'skydiving';
+user.premium = false;
 
 const keys = Object.keys(user);
 
 for (const key of keys) {
-  console.log('user :', user);
+  console.log(`${key}: ${user[key]}`);
 }
-
-// const user = {
-//   name: 'Mango',
-//   age: 20,
-//   hobby: 'html',
-//   premium: true,
-// };
-
-// user.mood = 'happy';
-// user.hobby = 'skydiving';
-// user.premium = false;
-
-// const keys = Object.keys(user);
-
-// for (const key of keys) {
-//   console.log('Keys: ', user[key]);
-// }
